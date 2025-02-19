@@ -1,0 +1,98 @@
+/**
+ * Appetiser Image Optimization - Admin Styles
+ *
+ * This file contains styles for the plugin's admin settings page,
+ * including the toggle switch UI for enabling/disabling optimization.
+ *
+ * @package   AppetiserImageOptimization
+ * @author    Landing page team
+ * @license   GPL v3 https://www.gnu.org/licenses/gpl-3.0.html
+ * @link      https://appetiser.com.au
+ * @version   1.0.0
+ */
+
+/* ================================
+   SLIDER SWITCH STYLING
+   ================================ */
+
+/**
+ * The main container for the slider switch.
+ * Defines size and positioning.
+ *
+ * @since 1.0.0
+ */
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+/**
+ * Hides the default checkbox input.
+ *
+ * @since 1.0.0
+ */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/**
+ * The slider background (default state).
+ * - Uses a light gray background by default.
+ * - Rounded edges for a modern UI.
+ * - Smooth transition effect.
+ *
+ * @since 1.0.0
+ */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+/**
+ * The circular button inside the slider.
+ * - Starts at the left side.
+ * - White color with smooth transition.
+ *
+ * @since 1.0.0
+ */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+/**
+ * Changes the background color when the switch is checked.
+ * - Uses WordPress blue (#007cba).
+ *
+ * @since 1.0.0
+ */
+input:checked + .slider {
+    background-color: #007cba;
+}
+
+/**
+ * Moves the slider button to the right when checked.
+ *
+ * @since 1.0.0
+ */
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
