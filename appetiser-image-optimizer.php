@@ -2,15 +2,15 @@
 /**
  * Plugin Name: Appetiser Image Optimization 
  * Plugin URI:  https://appetiser.com.au
- * Description: Optimizes newly uploaded images by reducing file size and automatically converting them to WebP format for improved performance and faster loading times!.
+ * Description: Optimizes newly uploaded images by reducing file size and automatically converting them to WebP format for improved performance and faster loading times!.!
  * Version: 1.0.0
  * Author: Landing page team
  * Author URI: https://appetiser.com.au
  * License: GPL v3
-*  License URI: https://www.gnu.org/licenses/gpl-3.0.htmlpx 2
+ *  License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
-if (!defined('ABSPATH')) {1
+if (!defined('ABSPATH')) {
     exit; 
 }
 
