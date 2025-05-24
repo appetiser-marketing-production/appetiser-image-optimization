@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Appetiser Image Optimization 
  * Plugin URI:  https://appetiser.com.au
- * Description: Optimizes newly uploaded images by reducing file size and automatically converting them to WebP format for improved performance and faster loading times!!!
+ * Description: Optimizes newly uploaded images by reducing file size and automatically converting them to WebP format for improved performance and faster loading times.
  * Version: 1.0.0
  * Author: Landing page team
  * Author URI: https://appetiser.com.au
