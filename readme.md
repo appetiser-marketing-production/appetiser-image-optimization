@@ -79,3 +79,5 @@ Your server must support **Imagick** or **GD Library** with WebP support.
 ## 📜 License
 
 This plugin is licensed under **GPL v3**. See [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html) for details.
+
+This is an update to test triggers
